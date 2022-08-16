@@ -7,7 +7,7 @@ We have prepared a lookup table to view class to index and vice versa.
 
 Our RNN model consists of 4 layers:
 
-Layer 1: Embedding layer to transform input dim size=10000 into output dim size=64 for a fixed embedding size(maxlen).
+Layer 1: Embedding layer to transform input dim=10000 into output dim=64 for a fixed embedding size(maxlen).
 
 Layer 2: Bidirectional sequence-processing layer holding LSTM with 20 number of units which return sequences to return the last output.
 
