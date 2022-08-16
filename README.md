@@ -5,7 +5,7 @@ These tweets are then vectorized by turning each text into either a sequence of 
 After visualizing the length of the tweets, we have set a maxlength and the sequences are padded and truncated with respect to that.
 We have prepared a lookup table to view class to index and vice versa.
 
-Our RNN model consists of 4 layers:
+The RNN model consists of 4 layers:
 
 Layer 1: Embedding layer to transform input dim=10000 into output dim=64 for a fixed embedding size(maxlen).
 
