@@ -15,4 +15,4 @@ Layer 3: Another bidirectional sequence-processing layer holding LSTM with 20 nu
 
 Layer 4: Dense (fully-connected) layer that transforms the LSTM output into the fixed embedding size with activation function softmax.
 
-The model uses Adam optimizer and measures sparse_categorical_crossentropy loss for the caetegorical data and measures accuracy in sparse_categorical_accuracy. The model predicts the emotion quite well when tested on testing data. 
+The model uses Adam optimizer and measures sparse_categorical_crossentropy loss for the categorical data and measures accuracy in sparse_categorical_accuracy. The model predicts the emotion quite well when tested on testing data. 
